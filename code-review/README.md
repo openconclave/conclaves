@@ -4,6 +4,10 @@ A deep, multi-agent code review pipeline for a single file. Five specialist revi
 
 This is not a "review my PR" wrapper around one LLM call. It's a 16-node graph with a deliberate division of labor.
 
+<p align="center">
+  <img src="conclave.png" alt="Code Review topology" width="80%">
+</p>
+
 ## What it does (per run)
 
 1. **Trigger** — manual, with the file path and any context you want to pass in.

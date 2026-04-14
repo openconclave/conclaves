@@ -2,6 +2,10 @@
 
 A conclave for people about to make an irreversible decision — quit, leave, sign, commit. Two agents build opposing lists; a code node mechanically detects items that describe the same underlying pattern. You read the highlighted ledger and decide.
 
+<p align="center">
+  <img src="conclave.png" alt="The Ledger topology" width="55%">
+</p>
+
 ## What it does
 
 You open a chat trigger and describe, in one paragraph, the decision you're facing and the context around it: what you've already put in, and what continues to be unavailable if nothing changes.
