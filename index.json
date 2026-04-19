@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "conclaves": [
+    {
+      "id": "the-ledger",
+      "title": "The Ledger",
+      "description": "For a decision you can't take back. Two agents build opposing lists (sunk cost vs opportunity cost); a code node finds overlap via semantic similarity. No LLM interprets the result — you read the highlighted ledger and decide.",
+      "toolName": "the_ledger",
+      "tags": ["decision", "reflection", "code-node"],
+      "requires": { "providers": ["anthropic"], "embeddings": false },
+      "path": "the-ledger/conclave.json",
+      "image": "the-ledger/conclave.png"
+    },
+    {
+      "id": "code-review",
+      "title": "Code Review",
+      "description": "Depth review of a single file: Context + Usage + KB sweep → 5 parallel specialists (correctness, security, tests, conventions, design) → Best Practices → Lead Reviewer with channel loop → markdown saved to .reviews/.",
+      "toolName": "oc_review",
+      "tags": ["code-review", "multi-agent", "knowledge-base"],
+      "requires": { "providers": ["anthropic"], "embeddings": true },
+      "path": "code-review/code-review.conclave.json",
+      "image": "code-review/conclave.png"
+    }
+  ]
+}
